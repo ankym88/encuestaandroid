@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:weightSum="1"
+    tools:context="com.example.dell.cuestionarioandroid.CuestionarioActivity">
+
+
+    <TextView
+        android:id="@+id/TextViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="@string/tituloventana"
+        android:textSize="10pt"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="32dp"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="113dp"
+        android:layout_height="84dp"
+        android:gravity="center"
+        app:srcCompat="@drawable/usuario" />
+
+    <EditText
+        android:id="@+id/EditTextName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="128dp"></EditText>
+
+    <EditText
+        android:id="@+id/EditTextApellido"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/apellido"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="128dp"></EditText>
+
+    <EditText
+        android:id="@+id/EditTextEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="188dp"></EditText>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="No. Telefono"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Fecha Nacimiento"
+        android:inputType="time" />
+
+    <Spinner
+        android:id="@+id/SpinnerGrado"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/grado_array"
+        android:prompt="@string/grado"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="94dp"></Spinner>
+
+    <Spinner
+        android:id="@+id/SpinnerSeccion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/seccion_array"
+        android:prompt="@string/seccion"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="94dp"></Spinner>
+
+
+    <EditText
+        android:id="@+id/EditTextFeedbackBody"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cuerpo"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="318dp"></EditText>
+
+    <CheckBox
+        android:id="@+id/CheckBoxResponse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/response"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="250dp"></CheckBox>
+
+
+    <Button
+        android:id="@+id/ButtonSendFeedback"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendFeedback"
+        android:text="@string/guardar01"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="457dp"></Button>
+
+
+</LinearLayout>
+

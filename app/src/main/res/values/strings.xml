@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Cuestionario Android</string>
+    <string name="titulobienvenida">CUESTIONARIO PARA ALUMNOS</string>
+    <string name="bienvenida">Bienvenido,gracias por participar en nuestra encuesta online, presione el boton continuar.</string>
+
+    <string name="tituloventana">Cuestionario de la Aplicacion</string>
+    <string name="descripcion">A continuacion se presenta la siguiente encuesta, favor de llenarla con los datos que se le solicitan</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="nacimiento">Fecha Nacimiento</string>
+    <string name="email">Email</string>
+    <string name="cuerpo">Comentario</string>
+    <string name="response">Confirmar</string>
+    <string name="guardar01">Guardar</string>
+
+
+
+    <string name="grado">Grado</string>
+    <string-array name="grado_array">
+        <item>@string/grado01</item>
+        <item>@string/grado02</item>
+        <item>@string/grado03</item>
+    </string-array>
+
+    <string name="grado01">Primero Basico</string>
+    <string name="grado02">Segundo Basico</string>
+    <string name="grado03">Tercero Basico</string>
+
+    <string name="seccion">Seccion</string>
+
+    <string name="seccion01">Seccion A</string>
+    <string name="seccion02">Seccion B</string>
+    <string name="seccion03">Seccion C</string>
+    <string name="seccion04">Seccion D</string>
+
+
+    <string-array name="seccion_array">
+        <item>Seccion A</item>
+        <item>Seccion B</item>
+        <item>Seccion C</item>
+        <item>Seccion D</item>
+
+    </string-array>
+
+
+</resources>
